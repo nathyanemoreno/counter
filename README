@@ -1,0 +1,58 @@
+# Counter
+
+A simple counter application built with SwiftUI and SwiftData for iOS.
+
+## Features
+
+- Increment and decrement counter
+- Reset counter
+- Simple and intuitive UI
+- Persistent counter state using SwiftData
+- Dark mode support
+- Haptic feedback on button presses
+
+## Requirements
+
+- iOS 16.0+
+- Xcode 14.0+
+- Swift 5.0+
+- SwiftUI
+- SwiftData
+
+## Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/nathyanemoreno/counter.git
+   cd counter
+   ```
+
+2. Open the project in Xcode:
+
+   ```sh
+   open Counter.xcodeproj
+   ```
+
+3. Build and run the application on your desired simulator or physical device.
+
+## Usage
+
+- Tap the `+` button to increment the counter.
+- Tap the `-` button to decrement the counter.
+- The counter value is saved automatically using SwiftData.
+- The counter value increases/decreases when holding the action buttons
+- Order counters manually by the user 
+
+## Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+Developed by [Nathyane Moreno](https://github.com/nathyanemoreno).
+

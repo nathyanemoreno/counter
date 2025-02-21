@@ -27,6 +27,7 @@
 		674C8EA02D5D49E60014A146 /* Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Counter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		674C8EB02D5D49E80014A146 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674C8EBA2D5D49E80014A146 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		675B38652D62439400D92A91 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Counter.swift; path = Counter/Entity/Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		674C8E972D5D49E60014A146 = {
 			isa = PBXGroup;
 			children = (
+				675B38652D62439400D92A91 /* Counter.swift */,
 				674C8EA22D5D49E60014A146 /* Counter */,
 				674C8EB32D5D49E80014A146 /* CounterTests */,
 				674C8EBD2D5D49E80014A146 /* CounterUITests */,
@@ -195,6 +197,8 @@
 			);
 			mainGroup = 674C8E972D5D49E60014A146;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 674C8EA12D5D49E60014A146 /* Products */;
 			projectDirPath = "";
@@ -409,7 +413,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nappla.counter.Counter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nappla.counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,7 +442,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nappla.counter.Counter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nappla.counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
